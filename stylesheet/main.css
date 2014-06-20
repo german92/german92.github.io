@@ -1,0 +1,188 @@
+html, body {
+	font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+}
+
+
+
+/*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv index.html vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+
+/******************************* HEADER *******************************/
+
+header {
+	background-color: #000;
+	color: #fff;
+	padding: 10px 0px 3px 10px;
+}
+
+header h1, h3 {
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+}
+
+header a, nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul  {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+/*nav {
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+	margin-left: 0px;
+	padding-left: 0px;
+}*/
+
+nav li {
+	display: inline;
+	padding-right: 5%;
+}
+
+/******************************* BODY *******************************/
+
+
+.general_div {
+	margin: 100px 0px 100px 0px;
+	/*padding: 100px 0px 100px 0;*/
+	clear: both;
+
+}
+
+
+
+/******** ABOUT ME ********/
+
+/*.left, .right {
+	margin: 5% 0px 5% 0px;
+}*/
+
+
+#about_me {
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+}
+
+.left {
+	float: left;
+	margin-left: 10%;
+	left: 0px;
+    width: 35%;
+}
+
+.right {
+	margin-right: 15%;
+	float: right;
+}
+
+.right img {
+    max-height: 280px;
+    max-width: 420px;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-bottom: 100px;
+
+}
+
+
+
+/******** PORTFOLIO ********/
+
+#portfolio {
+	clear: both;
+	text-align: center;
+	/*margin: 20px 0px 20px 0px;*/
+	padding: 100px 0px 100px 0;
+	background: url("../img/water.JPG") no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+#portfolio img {
+	padding: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255, 0.5);
+	border-radius: 15px;
+	margin: 20px 20px 0px 20px;
+
+}
+
+
+/******* CONTACT *******/
+
+
+#contact h1 {
+	clear: both;
+	text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+/******** FORM *******/
+
+
+form input {
+	margin: 3px 0px 3px 0px;
+}
+
+
+
+#contact h2 {	
+	text-align: center;
+
+}
+
+
+
+
+/******************************* FOOTER *******************************/
+
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 20px 0px 10px 0px;
+	background-color: #C8C8C8;
+}
+
+footer p {
+	margin-bottom: 0px;
+}
+
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ index.html ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+#div1 {
+	margin-left: 300px;
+}
+
+.project { 
+	text-align: center; 
+	display:inline-block;
+	padding: 70px;
+	background-color: rgba(30, 177, 250, 0.5);
+	border-radius: 20px;
+	margin: 60px 30px 60px 30px;
+}
+
+.go_back {
+	float: right;
+}
+
+
+
