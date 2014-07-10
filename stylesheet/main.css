@@ -16,11 +16,15 @@ header {
 	background-color: #000;
 	color: #fff;
 	padding: 10px 0px 3px 10px;
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+	top: 0px;
 }
 
-header h1, h3 {
-	padding: 0px;
-	margin: 0px 0px 0px 10px;
+header h1{
+	float: left;
+	margin-right: 15px;
 }
 
 header a, nav a {
@@ -28,22 +32,18 @@ header a, nav a {
 	color: #fff;
 }
 
-ul  {
-	padding-top: 5px;
-	padding-left: 10px;
-}
 
-/*nav {
-	background-color: #000;
-	position: fixed;
-	width: 100%;
-	margin-left: 0px;
-	padding-left: 0px;
-}*/
+ nav {
+ 	float: right;
+ 	margin-right: 10%
+ }
+
 
 nav li {
 	display: inline;
-	padding-right: 5%;
+	padding-top: 5px;
+	padding-left: 30px;
+	font-size: 20px
 }
 
 /******************************* BODY *******************************/
