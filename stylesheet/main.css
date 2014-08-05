@@ -1,5 +1,5 @@
 html, body {
-	font-family: arial, sans-serif;
+    font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #F0F0F0;
@@ -15,16 +15,11 @@ html, body {
 header {
 	background-color: #000;
 	color: #fff;
-	padding: 10px 0px 3px 10px;
-	display: inline-block;
+	padding: 10px 0px 5px 10px;
 	width: 100%;
 	position: fixed;
 	top: 0px;
-}
-
-header h1{
-	float: left;
-	margin-right: 15px;
+	overflow: hidden;
 }
 
 header a, nav a {
@@ -32,9 +27,25 @@ header a, nav a {
 	color: #fff;
 }
 
+header h1, header h3 {
+	padding: 0px;
+	margin: 0px;
+}
+
+header ul {
+	margin: 35px 0px 0px 0px;
+}
+
+#name {
+	float: left;
+	position: inline-block;
+	margin-left: 10px ;
+}
 
  nav {
  	float: right;
+ 	position: inline-block;
+ 	list-style-type: none;
  	margin-right: 10%
  }
 
@@ -51,43 +62,38 @@ nav li {
 
 .general_div {
 	margin: 100px 0px 100px 0px;
-	/*padding: 100px 0px 100px 0;*/
 	clear: both;
-
+	overflow: hidden;
 }
 
 
 
 /******** ABOUT ME ********/
 
-/*.left, .right {
-	margin: 5% 0px 5% 0px;
-}*/
-
-
 #about_me {
-	padding-bottom: 100px;
-	margin-bottom: 100px;
+	clear: both;
+	margin-bottom: 150px;
 }
 
 .left {
 	float: left;
+	position: inline-block;
 	margin-left: 10%;
-	left: 0px;
-    width: 35%;
+  width: 35%;
+  margin-top: 70px;
 }
 
 .right {
 	margin-right: 15%;
 	float: right;
+	position: inline-block;
+	margin-top: 100px;
 }
 
 .right img {
-    max-height: 280px;
-    max-width: 420px;
-    margin-left: 10%;
+    height: 240px;
+    width: 360px;
     border-radius: 15px;
-    margin-bottom: 100px;
 
 }
 
@@ -97,6 +103,7 @@ nav li {
 
 #portfolio {
 	clear: both;
+	overflow: hidden;
 	text-align: center;
 	/*margin: 20px 0px 20px 0px;*/
 	padding: 100px 0px 100px 0;
@@ -106,6 +113,7 @@ nav li {
  	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
+
 }
 
 #portfolio img {
