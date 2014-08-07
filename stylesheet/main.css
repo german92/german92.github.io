@@ -15,7 +15,7 @@ html, body {
 header {
 	background-color: #000;
 	color: #fff;
-	padding: 10px 0px 5px 10px;
+	padding: 6px 0px 5px 10px;
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -33,13 +33,13 @@ header h1, header h3 {
 }
 
 header ul {
-	margin: 35px 0px 0px 0px;
+	margin: 33px 0px 0px 0px;
 }
 
 #name {
 	float: left;
 	position: inline-block;
-	margin-left: 10px ;
+	margin-left: 20px ;
 }
 
  nav {
@@ -53,7 +53,7 @@ header ul {
 nav li {
 	display: inline;
 	padding-top: 5px;
-	padding-left: 30px;
+	padding-left: 50px;
 	font-size: 20px
 }
 
@@ -72,27 +72,28 @@ nav li {
 
 #about_me {
 	clear: both;
-	margin-bottom: 150px;
+	margin-top: 60px;
+	margin-bottom: 50px;
 }
 
 .left {
 	float: left;
 	position: inline-block;
 	margin-left: 10%;
-  width: 35%;
-  margin-top: 70px;
+        width: 35%;
+        margin-top: 70px;
 }
 
 .right {
 	margin-right: 15%;
 	float: right;
 	position: inline-block;
-	margin-top: 100px;
+	margin-top: 155px;
 }
 
 .right img {
-    height: 240px;
-    width: 360px;
+    height: 275px;
+    width: 400px;
     border-radius: 15px;
 
 }
@@ -105,8 +106,7 @@ nav li {
 	clear: both;
 	overflow: hidden;
 	text-align: center;
-	/*margin: 20px 0px 20px 0px;*/
-	padding: 100px 0px 100px 0;
+	padding: 130px 0px 130px 0;
 	background: url("../img/water.JPG") no-repeat center center fixed;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
