@@ -4,41 +4,72 @@
     <title>German Ostaszynski | Web developer</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="stylesheet/main.css">
+    <link rel="stylesheet" href="stylesheet/code.css">
   </head>
-  
-  <body>
+
+  <div id="wrapper">
 
     <header>
-      <div id="name">
-  <a href="index.html">
-    <h1>German Ostaszynski</h1>
-    <h3>Web developer</h3>
-  </a>
+    <div id="name">
+      <a href="index.html">
+	<h1>German Ostaszynski</h1>
+	<h3>Web developer</h3>
+      </a>
       </div>
       <nav>
-  <ul>
-    <li><a href="#about_me" class="smoothScroll">Home</a></li>
-    <li><a href="#portfolio" class="smoothScroll">Porfolio</a></li>
-    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-    <li><a href="other/resume_GO.pdf">Curriculum Vitae</a></li>
-    <li><a href="index.html">Go Back!</a></li>
-  </ul>
+	<ul>
+	  <li><a href="index.html#about_me" class="smoothScroll">Home</a></li>
+          <li><a href="index.html#portfolio" class="smoothScroll">Porfolio</a></li>
+          <li><a href="index.html#contact" class="smoothScroll">Contact</a></li>
+          <li><a href="other/resume_GO.pdf">Curriculum Vitae</a></li>
+          <li><a href="index.html">Go Back!</a></li>
+	</ul>
       </nav>
     </header>
 
-
-    <section>
-      <div class = "project" id = "div1">
-  	<p>Project 1</p>
-      </div>
-      <div class = "project">
-	<p>Project 2</p>
-      </div>
-      <div class = "project">
-	<p>Project 3</p>
-      </div>
-    </section>
+    <body>
   
+      <h1 id="title">Projects</h1>
+      <div id ="all_projects">
+
+        <div class = "project">
+	  <a href="http://fathomless-inlet-6116.herokuapp.com/">
+	    <img src="img/roomiez.png" alt="Rommiez">
+	    <h3>Roomiez</h3>
+	  </a>
+	  <p>
+	    Rommiez allows you to connect and find other roomates and
+	    landlords!
+	  </p>
+        </div>
+
+	<div class = "project">
+	  <a href = "other/422_final_project.pdf">
+	    <img src="img/target_project.png" alt="Target.com Usability Test">  
+	    <h3>Target.com Usability Test</h3>
+	  </a>
+	  <p> 
+	    This project analyzes Target.com. Using different methods, it
+	    studies the customer's shopping process and website's different
+	    tasks. This usability tests explains mentioned process and how the
+	    website can be improved to maximaze the customer's experience. 
+	  </p> 
+        </div>
+	
+	<div class = "project">
+	  <a href="https://www.youtube.com/watch?v=4bXPeM9KUD4&feature=youtu.be">
+	    <img src="img/vim_youtube_tutorial.png" alt="Vim YouTube Tutorial">  
+	    <h3>VIM: Getting Started</h3>
+	  </a>
+	    <p>Giving back to the community is extremely important. "VIM:
+	    Getting Started" is an introductory tutorial to VIM, one of the most
+	    used text editors among web developers and Ruby programmers.</p>
+        </div>
+ 
+      </div>
+  
+    </body>
+
     <footer>
       <a href="http://facebook.com/osgerman"><img src="img/facebook.png" alt="Facebook Logo"></a>
       <a href="http://twitter.com/osgerman"><img src="img/twitter.png" alt="Twitter Logo"></a>
@@ -46,5 +77,6 @@
       <a href="https://github.com/german92"><img src="img/github.png" alt="GitHub Logo"></a>
       <p>&copy; 2014 German Ostaszynski</p>
     </footer>
-  </body>
+  
+  </div>
 </html>
