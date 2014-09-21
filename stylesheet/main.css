@@ -128,14 +128,9 @@ nav li {
 /******* CONTACT *******/
 
 
-#contact h1 {
+#contact {
 	clear: both;
 	text-align: center;
-}
-
-form {
-    width: 300px;
-    margin: 0 auto;
 }
 
 
