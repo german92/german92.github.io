@@ -430,7 +430,7 @@ footer {
 
 
 #footer_content {
-  width: 80%;
+  width: 90%;
   height: 80%;
   margin: 0 auto;
   padding-top: 25px;
@@ -438,7 +438,7 @@ footer {
 
 #footer_info {
   float: left;
-  width: 25%;
+  width: 30%;
   height: 100px;
   color: #FFF; 
   border-right: 1px solid #fff;
@@ -537,7 +537,7 @@ footer {
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
  
-/* -------------- Home --------------- */
+  /* -------------- Home --------------- */
 
   #home {
     height: 500px;
@@ -560,9 +560,18 @@ footer {
     top: 20%;
   }
 
+
+  /* -------------- Footer --------------- */
+  
+  #footer_info {
+    width: 25%;  
+  }
+
+  #footer_icons div {
+    margin-right: 25px;
+  }
+ 
 }
-
-
 
 
 @media screen and (max-width: 1023px) and (min-width: 768px){
@@ -620,8 +629,58 @@ footer {
   #portfolio_container {
     width: 675px;
   }
-}
 
+
+  /* -------------- Footer --------------- */
+  
+  #footer_info {
+    width: 26%;
+    margin-top: 10px;
+    font-size: 1.2em; 
+  }
+
+  #footer_icons div {
+    width: 45px;
+    height: 45px;
+    margin: 35px 25px 0 0;
+  }
+
+  #github {
+    background-position: 7px 821px !important;
+    background-size: 660% 429% !important;
+  }
+
+  #linkedin {
+    background-position: 675px 766px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #flickr {
+    background-position: -89px 768px !important;
+    background-size: 795% 530% !important;
+  }
+
+  #youtube {
+    background-position: 262px 480px !important;
+    background-size: 930% 482% !important;
+  }
+
+  #twitter {
+    background-position: -173px 763px !important;
+    background-size: 777% 530% !important;
+  }
+
+  #facebook {
+    background-position: -235px 763px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #google_plus {
+    background-position: -246px 715px !important;
+    background-size: 710% 495% !important;
+  }
+
+}
 
 @media screen and (max-width: 767px) and (min-width: 600px){
 
@@ -689,6 +748,64 @@ footer {
 
   #portfolio_container {
     width: 450px;
+  }
+
+
+  /* -------------- Footer --------------- */
+ 
+  #footer_content {
+    padding-top: 5px;  
+  }
+
+  #footer_info {
+    width: 22%;
+    margin-top: 10px;
+    font-size: 1em; 
+  }
+
+  #footer_icons {
+    width: 340px;  
+  }
+
+  #footer_icons div {
+    width: 45px;
+    height: 45px;
+    margin: 15px 40px 0 0;
+  }
+
+  #github {
+    background-position: 7px 821px !important;
+    background-size: 660% 429% !important;
+  }
+
+  #linkedin {
+    background-position: 675px 766px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #flickr {
+    background-position: -89px 768px !important;
+    background-size: 795% 530% !important;
+  }
+
+  #youtube {
+    background-position: 262px 480px !important;
+    background-size: 930% 482% !important;
+  }
+
+  #twitter {
+    background-position: -173px 763px !important;
+    background-size: 777% 530% !important;
+  }
+
+  #facebook {
+    background-position: -235px 763px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #google_plus {
+    background-position: -246px 715px !important;
+    background-size: 710% 495% !important;
   }
 
 
