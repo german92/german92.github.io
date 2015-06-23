@@ -1,0 +1,997 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*---------------------------- Font --------------------------------*/
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(../fonts/lato_lite_ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(../fonts/lato_lite.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+/*---------------------------- General CSS --------------------------------*/
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#main > article {
+  width: 100%;
+}
+
+.title {
+  font-size: 2em;
+  position: relative;
+  left: 140px;
+  top: 90px;
+  width: 170px;
+}
+
+hr {
+  width: 80%;
+}
+
+
+/*-------------------------- Nav Bar -------------------------------*/
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(65, 64, 64);
+  position: fixed;
+  z-index: 999;
+}
+
+nav ul {
+  list-style-type: none;
+  color: #FFF;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  vertical-align: middle;
+}
+
+#nav_name {
+  float: left;
+  font-size: 2em;
+  padding: 10px 0 0 45px;
+}
+
+#nav_list {
+  float: right;
+  padding: 20px 30px 0 0;
+  font-size: 1.3em;
+}
+
+#nav_list li {
+  margin-right: 20px;
+  height: inherit;
+  padding: 10px 3px 8px 2px;
+}
+
+#nav_list li:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  background-size: auto 100%;
+  color: rgb(65, 64, 64);
+}
+
+
+/*---------------------------- Home --------------------------------*/
+
+#home {
+  background-color: rgb(221, 220, 218);
+  padding-top: 60px;
+}
+
+.container {
+  position: relative;
+  margin: 0px auto;
+  width: 65%;
+  height: inherit;
+}
+
+.container div {
+  display: inline-block;
+}
+
+#quote {
+  position: absolute; 
+  left: 0;
+}
+
+#home_pic {
+  background: url("../img/portfolio_sprite.png") 0 0;
+  background-size: 384% 295%;
+  position: absolute;
+  right: 0;
+}
+
+
+/*---------------------------- About --------------------------------*/
+
+#about {
+  height: 600px;
+  background-image: url("../img/working_computer.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+#layer {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+#short_bio {
+  background-color: rgba(255, 255, 255, 0.7); 
+  height: 144px;
+  width: 100%;
+  position: relative;
+  top: 234px;
+}
+
+#short_bio p { 
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 1.1em;
+}
+
+
+
+/*---------------------------- Portfolio --------------------------------*/
+
+#portfolio {
+  height: 745px;
+}
+
+#portfolio_container {
+  width: 900px;
+  height: 495px;
+  margin: 175px auto 0;
+}
+
+.portfolio_element {
+  height: 220px;
+  width: 200px;
+  float: left;
+  margin: 0 25px 25px 0;
+}
+
+.portfolio_picture {
+  margin: 7px auto 0;
+  width: 70%;
+  height: 150px;
+  background: url("../img/portfolio_sprite.png");
+}
+
+.portfolio_description {
+  text-align: center;
+  color: #fff;
+}
+
+.portfolio_description h1 {
+  font-size: 1.5em;
+}
+
+.portfolio_element:nth-child(1) {
+  background-color: rgb(196, 115, 113);
+} 
+
+.portfolio_element:nth-child(2) {
+  background-color: rgb(184, 184, 180);
+} 
+ 
+.portfolio_element:nth-child(3) {
+  background-color: rgb(156, 191, 79);
+} 
+
+.portfolio_element:nth-child(4) {
+  background-color: rgb(184, 184, 180);
+} 
+
+.portfolio_element:nth-child(5) {
+  background-color: rgb(139, 168, 74);
+} 
+
+.portfolio_element:nth-child(6) {
+  background-color: rgb(113, 128, 176);
+} 
+
+.portfolio_element:nth-child(7) {
+  background-color: rgb(210, 139, 121);
+}   
+
+.portfolio_element:nth-child(8) {
+  background-color: rgb(148, 199, 205);
+} 
+
+#roomiez {
+  background-position: 0 0;
+  background-size: 396% 255%;
+  width: 160px;
+}
+
+#graphic_design {
+  background-position: -160px 0;
+  background-size: 371% 290%;
+  width: 164px;
+}
+
+#lingua_meet {
+  background-position: 339px 0;
+  background-size: 474% 312%;
+  width: 154px;
+}
+
+#target {
+  background-position: 140px 0;
+  background-size: 409% 243%;
+  width: 137px;
+}
+
+#online_comunity {
+  background-position: 13px -139px;
+  background-size: 415% 248%;
+  width: 137px;
+}
+
+#vim_tutorials {
+  background-position: 495px 250px;
+  background-size: 400% 260%;
+  width: 165px;
+}
+
+#fun_facts {
+  background-position: 225px 206px;
+  background-size: 460% 200%;
+  width: 100px;
+}
+
+#photography {
+  background-position: 148px 227px;
+  background-size: 425% 248%;
+  width: 137px;
+}
+
+
+
+/*---------------------------- Experience --------------------------------*/
+
+#timeline {
+  width: 80%;
+  height: 800px;
+  margin: 170px auto 0;
+  position: relative;
+}
+
+#timeline svg {
+  stroke: rgb(113, 128, 175);
+  stroke-width: 4;
+  fill: rgb(113, 128, 175);
+}
+
+#timeline svg text {
+  fill: #000;
+  stroke-width: 0;
+  font-size: 1.5em;
+}
+
+#additional_info {
+  width: 80%;
+  margin: 40px auto 80px;
+}
+
+#additional_info h1 {
+  font-size: 1.9em;
+  margin-bottom: 20px;
+  list-style-type: none;
+  color: rgb(113, 128, 175);
+}
+
+#additional_info ul {
+  list-style-type: disc;
+  color: rgb(113, 128, 175);
+}
+
+#additional_info p {
+  font-size: 1.2em;
+  color: #000;
+}
+
+#additional_info p span {
+  color: rgb(113, 128, 175);
+}
+  
+#additional_info > p {
+  margin-top: 25px;
+  font-size: 1.6em;
+}
+
+#additional_info a {
+  color: rgb(113, 128, 175);
+}
+
+
+
+/*---------------------------- Contact --------------------------------*/
+
+#contact_content {
+  width: 80%;
+  margin: 150px auto 100px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: rgb(215, 215, 210);
+  border:0 none;
+  height: 30px;
+  }
+
+
+input[name="message"] {
+  height: 200px;
+  margin-bottom: 40px;
+
+}
+
+input[type=submit] {
+  padding:5px 15px; 
+  background: rgb(45, 45, 43);
+  color: #FFF; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 20px; 
+  width: 80px;
+}
+
+/*---------------------------- Footer --------------------------------*/
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(65, 64, 64);
+}
+
+
+#footer_content {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#footer_info {
+  float: left;
+  width: 25%;
+  height: 100px;
+  color: #FFF; 
+  border-right: 1px solid #fff;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#footer_info p {
+  margin: 20px 10px 0 0;
+}
+
+#footer_info p span {
+  display: block;
+  padding-top: 10px;
+}
+
+#footer_icons {
+  float: right;
+}
+
+#footer_icons div {
+  background: url("../img/portfolio_sprite.png");  
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 14px 32px 0 0;
+}
+
+#github {
+  background-position: 0px 817px !important;
+  background-size: 777% 530% !important;
+}
+
+#linkedin {
+  background-position: 483px 816px !important;
+  background-size: 786% 530% !important;
+}
+
+#flickr {
+  background-position: -135px 823px !important;
+  background-size: 777% 530% !important;
+}
+
+#youtube {
+  background-position: 394px 816px !important;
+  background-size: 900% 530% !important;
+}
+
+#twitter {
+  background-position: -270px 817px !important;
+  background-size: 777% 530% !important;
+}
+
+#facebook {
+  background-position: -394px 816px !important;
+  background-size: 850% 530% !important;
+}
+
+#google_plus {
+  background-position: -426px 780px !important;
+  background-size: 786% 505% !important;
+}
+
+/*----------------------------------------------------------------------------
+ * --------------------------------Media Queries------------------------------
+ * --------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 1280px) {
+ 
+/* -------------- Home --------------- */
+
+  #home {
+    height: 530px;
+    display: block;
+  }
+
+  #quote {    
+    font-size: 2.5em;
+    top: 38%; 
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 280px;
+    width: 380px;
+    top: 20%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+ 
+/* -------------- Home --------------- */
+
+  #home {
+    height: 500px;
+  }
+
+  #quote {
+    font-size: 2.2em; 
+    top: 42%;
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 55%;
+    width: 45%;
+    min-height: 220px;
+    min-width: 345px;
+    top: 20%;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+
+  /* ----------- Nav Bar ------------- */
+
+  #nav_name {
+    padding: 13px 0 0 22px;
+    font-size: 1.9em;
+  }
+
+  #nav_list {
+    padding: 24px 15px 0 0;
+    font-size: 1.2em;
+  }
+
+  #nav_list li {
+    margin-right: 10px; 
+  }
+
+
+  /* -------------- Home --------------- */
+
+  #home {
+    height: 520px;
+  }
+
+  .container {
+    min-width: 75%;
+  }
+
+  #quote {
+    font-size: 2em; 
+    top: 38%;
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 245px;
+    width: 285px;
+    top: 18%;
+  }
+
+
+
+  /* -------------- Portfolio --------------- */
+
+  #portfolio {
+    height: 960px;
+  }
+
+  #portfolio_container {
+    width: 675px;
+  }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 600px){
+
+  /* ----------- Nav Bar ------------- */
+
+  nav {
+    height: 90px;
+  }
+
+  #nav_name, #nav_list {
+    float: none;
+    padding: 10px 0 0 25px;
+  }
+
+  #nav_name {
+    padding-top: 8px;
+  }
+
+
+  /* -------------- Home --------------- */
+
+  #home {
+    height: 520px;
+  }
+
+  #quote, #home_pic {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .container {
+    padding-top: 55px;
+  }
+
+  #quote {
+    font-size: 2.2em; 
+    top: 38%;
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 220px;
+    width: 290px;
+    top: 20%;
+  }
+
+  /* -------------- About --------------- */
+
+  #about {
+    background-image: url("../img/working_tablet.jpg");
+  }
+
+
+  /* -------------- Portfolio --------------- */
+
+  #portfolio {
+    height: 1190px;
+  }
+
+  #portfolio_container {
+    width: 450px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 599px) and (min-width: 481px){
+
+  /* ----------- Nav Bar ------------- */
+
+  nav {
+    height: 90px;
+
+  }
+
+  #nav_name, #nav_list {
+    float: none;
+    padding: 10px 0 0 25px;
+  }
+
+  #nav_name {
+    padding-top: 8px;
+  }
+
+  #nav_list {
+    font-size: 1.1em;
+  }
+
+  #nav_list li {
+    margin-right: 20px;
+  }
+
+
+  /* -------------- Home --------------- */
+
+  #home {
+    height: 500px;
+  }
+
+  #quote, #home_pic {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .container {
+    padding-top: 50px;
+  }
+
+  #quote {
+    font-size: 2em; 
+    top: 38%;
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 50%;
+    width: 40%;
+    min-height: 200px;
+    min-width: 300px;
+    top: 20%;
+  }
+
+  /* -------------- About --------------- */
+
+  #about {
+    background-image: url("../img/working_tablet.jpg");
+  }
+
+  .title {
+    left: 85px;
+  }
+
+  #short_bio {
+    height: 160px;
+  }
+
+  #short_bio p { 
+    width: 425px;
+  }
+
+
+  /* -------------- Portfolio --------------- */
+
+  #portfolio {
+    height: 1190px;
+  }
+
+  #portfolio_container {
+    width: 430px;
+  }
+
+  .portfolio_element {
+    margin-right: 15px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 480px) and (min-width: 341px) {
+
+  /* ----------- Nav Bar ------------- */
+
+  nav {
+    text-align: center;
+    height: 252px;
+    position: static;
+
+  }
+
+  nav ul li {
+    display: block;
+    padding: 13px 0 0px 0;  
+    border-bottom: 1px dotted #FFF;
+    height: 30px;
+  }
+
+  #nav_name {
+    background-color: black;
+    float: none;
+    padding: 0;
+  }
+
+  #nav_name li {
+    padding-bottom: 8px;
+  }
+
+  #nav_list {
+    float: none;
+    padding: 0;
+  }
+
+   #nav_list li {
+    margin-right: 0;
+  }
+
+
+ /* -------------- Home --------------- */
+
+  #home {
+    height: 460px;
+    padding-top: 0;
+  }
+
+  #quote, #home_pic {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container {
+    padding-top: 50px;
+  }
+
+  #quote {
+    font-size: 1.6em; 
+    top: 38%;
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 50%;
+    width: 40%;
+    min-height: 200px;
+    min-width: 300px;
+    top: 20%;
+    margin-top: 40px;
+  }
+  
+  /* -------------- About --------------- */
+
+  #about {
+    background-image: url("../img/working_mobile.jpg");
+  }
+
+  .title {
+    left: 55px;
+    font-size: 1.8em;
+  }
+
+  #short_bio {
+    height: 160px;
+  }
+
+  #short_bio p { 
+    width: 350px;
+    font-size: 1em;
+  }
+
+
+  /* -------------- Portfolio --------------- */
+
+  #portfolio {
+    height: 1960px;
+  }
+
+  #portfolio_container {
+    width: 200px;
+  }
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+  /* ----------- Nav Bar ------------- */
+
+
+  nav {
+    text-align: center;
+    height: 252px;
+    position: static;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 13px 0 0px 0;  
+    border-bottom: 1px dotted #FFF;
+    height: 30px;
+  }
+
+  #nav_name {
+    background-color: black;
+    float: none;
+    padding: 0;
+  }
+
+  #nav_name li {
+    padding-bottom: 5px;
+  }
+
+  #nav_list {
+    float: none;
+    padding: 0;
+  }
+
+   #nav_list li {
+    margin-right: 0;
+  }
+
+
+ /* -------------- Home --------------- */
+
+  #home {
+    height: 460px;   
+    padding-top: 0;
+  }
+
+  #quote, #home_pic {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .container {
+    padding-top: 50px;
+  }
+
+  #quote {
+    font-size: 1.5em; 
+    top: 38%;
+  }
+
+  #quote span {
+    padding-left: 2em;
+  }
+  
+  #home_pic {
+    height: 50%;
+    width: 40%;
+    min-height: 200px;
+    min-width: 300px;
+    top: 20%;
+  }
+  
+  /* -------------- About --------------- */
+
+  #about {
+    background-image: url("../img/working_mobile.jpg");
+  }
+
+
+  /* -------------- Portfolio --------------- */
+  
+  #portfolio {
+    height: 1960px;
+  }
+
+  #portfolio_container {
+    width: 200px;
+  }
+
+}
+

@@ -1,84 +1,337 @@
-<!doctype html>
-<html>	
-  <head> 
-    <title>German Ostaszynski | Web developer</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheet/main.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>German Ostaszynski | Web Developer & Designer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>  <!-- Incluye un .js externo (JQUERY) -->
   </head>
-	
+
   <body>
 
-    <header>
-      <div id="name">
-	<a href="index.html">
-	  <h1>German Ostaszynski</h1>
-	  <h3>Web developer</h3>
-	</a>
-      </div>
-      <nav>
-	<ul>
-	  <li><a href="#about_me" class="smoothScroll">Home</a></li>
-	  <li><a href="#portfolio" class="smoothScroll">Porfolio</a></li>
-      	  <li><a href="#contact" class="smoothScroll">Contact</a></li>
-	  <li><a href="other/resume_GO.pdf">Curriculum Vitae</a></li>
-	</ul>
-      </nav>
-    </header>
-		
-    <div class = "general_div" id = "about_me">
-      <div class="left">
-	<h2>About me...</h2>
-	<p>
-	  I am student at University of Michigan persuing a bachelor's degree in
-	  Informactis. Since being enrolled at U of M I have discovered a
-	  passion for technology, fixing and creating things. I see programming
-	  as the perfect tool to fix many problems that society faces nowadays!
-	  I aspire to work as a full time web-developer after graduating next
-	  April.
-	</p>
-	<br>
-      	<h2>Acerca de m&iacute;...</h2>
-      	<p>
-	  Soy un estudiante de Inform&aacute;tica en la Universidad de
-	  Michigan. Desde que empec&eacute; la universidad desubr&iacute; una
-	  passi&oacute;n por la tecnolog&iacute;a, solucionar problemas y crear
-	  cosas. Programaci&oacute;n y otras herramientas me van a dar la
-	  posibilidad de crear aplicaciones capaces de solucionar varios
-	  problemas que la sociedad enfrenta todos los d&iacute;as. Yo aspiro
-	  ser un programador de aplicaciones despu&eacute;s de graduarme abril
-	  del pr&oacute;ximo a&ntilde;o.
-	</p>
-      </div>
-			
-      <div class = "right">
-      	<img src="img/volcan_poas.JPG" alt="Picture of German"></a>
-      </div>
-    </div>
+    <nav>
+      <ul id="nav_name">
+        <li><a href="#nav_name">German Ostaszynski</a></li>
+      </ul>
+      <ul id="nav_list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#experience">Experience</a></li> 
+        <li><a href="#contact">Contact</a></li>  
+      </ul>
+    </nav>
 
-    <a name ="porfolio"></a>
-    <div id="portfolio" class = "general_div">
-      <h1>Some things I have done...</h1>
-      <a href = "code.html"><img src="img/html.png" alt="Code Icon"></a>
-      <a href = "photography.html"><img src="img/photo.png" alt="Camera Icon"></a>
-    </div>
 
-    <a name ="contact"></a>
-    <div id ="contact" class = "general_div">
-      <h2>Lets talk!</h2>
-      <p>The best way to contact me is via email. Feel free to <a
-	href="mailto:german92@gmail.com?Subject=Lets talk!:personal website" target="_top">
-	message me</a> about ideas, projects, how to improve my website or even job openings!
-    </div>
 
+    <section id="main">
+
+      <article id="home">
+        <div class="container">
+          <div id="quote">
+            <p>
+              I love to create,<br><span>design, and build</span>
+            </p>
+          </div>
+          <div id="home_pic">
+          </div>
+        </div>
+      </article>
+
+
+      <article id="about">
+        <div id="layer">
+          <div id="about_content">
+            <div class="title">
+              <h1>About Me</h1>
+            </div>
+            <div id="short_bio">
+              <p>
+                Born and raised in Costa Rica and graduated from the University of Michigan 
+                with a bachelor's degree in Informactis. Since I was yong I 
+                have discovered a passion for technology, fixing and creating things. For me 
+                one the best feeling is when an application looks and feels right. After school 
+                I aspire to work as front-end web developer, IT consultantor or as a project manager. 
+                In my free time I like to take pictures, explore and learn new skills!
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="portfolio">
+
+        <div class="title">
+          <h1>Portfolio</h1>
+        </div>
+
+        <div id="portfolio_container">
+          
+          <div class="portfolio_element">
+            <div id="roomiez" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>Roomiez</h1>
+              <h2>Find roomates and apartments</h2>
+            </div>
+          </div>
+          
+          <div class="portfolio_element">
+            <div id="graphic_design" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>Graphic Design</h1>
+              <h2>My graphics design projects</h2>
+            </div>
+          </div>
+          
+          <div class="portfolio_element">
+            <div id="lingua_meet" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>Lingua Meet</h1>
+              <h2>Android app to find tutors</h2>
+            </div>
+          </div>
+          
+          <div class="portfolio_element">
+            <div id="target" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>Target Study</h1>
+              <h2>Target's website usabilty testing</h2>
+            </div>
+          </div>
+
+          <div class="portfolio_element">
+            <div id="online_comunity" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>9GAG Study</h1>
+              <h2>9GAG's online comunity study</h2>
+            </div>
+          </div>
+
+          <div class="portfolio_element">
+            <div id="vim_tutorials" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>VIM Tutorials</h1>
+              <h2>Getting started with VIM</h2>
+            </div>
+          </div>
+
+          <div class="portfolio_element">
+            <div id="fun_facts" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>Fun Facts</h1>
+              <h2>Small Swift project</h2>
+            </div>
+          </div>
+
+          <div class="portfolio_element">
+            <div id="photography" class="portfolio_picture">
+            </div>
+            <div class="portfolio_description">
+              <h1>Photography</h1>
+              <h2>See the world through my eyes</h2>
+            </div>
+          </div>
+
+        </div>
+
+      </article>
+
+      <hr>
+
+      <article id="experience">
+        
+        <div class="title">
+          <h1>Experience</h1>
+        </div>
+
+        <div id="timeline">
+          <svg height="800px" width="100%">
+            <line x1="50%" y1="0" x2="50%" y2="100%"/> <!--  Vertical Line -->
+            
+            <line x1="50%" y1="0" x2="53%" y2="3%"/> <!-- Arrow -->
+            <line x1="50%" y1="0" x2="47%" y2="3%"/> <!-- Arrow -->
+
+            <line x1="50%" y1="10%" x2="40%" y2="10%"/> <!-- Line 1 -->
+            <circle cx="39%" cy="10%" r="15"/>
+            <text x="44%" y="9.5%" class="date">2009</text>
+            <text>
+              <tspan x="21%" y="9%">Graduated from</tspan> 
+              <tspan x="24%" y="12%">hightschool</tspan>
+            </text>
+
+            <line x1="50%" y1="16%" x2="60%" y2="16%"/> <!-- Line 1 Right -->
+            <circle cx="61%" cy="16%" r="15"/>
+            <text>
+              <tspan x="63%" y="15%">Assisted a year-long</tspan> 
+              <tspan x="63%" y="18%">leadership program</tspan>
+            </text>
+
+            <line x1="50%" y1="22%" x2="35%" y2="22%"/> <!-- Line 2 -->
+            <circle cx="34%" cy="22%" r="15"/>
+            <text x="44%" y="21.5%" class="date">2010</text>
+            <text>
+              <tspan x="10%" y="21%">Started my career at</tspan> 
+              <tspan x="6%" y="24%">The University of Michigan</tspan>
+            </text>
+            
+            <line x1="50%" y1="28%" x2="65%" y2="28%"/> <!-- Line 2 Right -->
+            <circle cx="66%" cy="28%" r="15"/>
+            <text>
+              <tspan x="68%" y="27%">Assistant automechanic</tspan> 
+              <tspan x="68%" y="30%">Motor Town, Costa Rica</tspan>
+            </text>
+
+            <line x1="50%" y1="34%" x2="40%" y2="34%"/> <!-- Line 3 -->
+            <circle cx="39%" cy="34%" r="15"/>
+            <text x="44%" y="33.5%" class="date">2011</text>
+            <text>
+              <tspan x="16%" y="33%">Joined TAMID - an</tspan> 
+              <tspan x="13%" y="36%">Israeli investment group</tspan>
+            </text>
+
+            <line x1="50%" y1="40%" x2="60%" y2="40%"/> <!-- Line 3 Right -->
+            <circle cx="61%" cy="40%" r="15"/>
+            <text>
+              <tspan x="63%" y="39%">Assistant automechanic</tspan> 
+              <tspan x="63%" y="42%">Motor Town, Costa Rica</tspan>
+            </text>
+
+            <line x1="50%" y1="46%" x2="35%" y2="46%"/> <!-- Line 4 -->
+            <circle cx="34%" cy="46%" r="15"/>
+            <text x="44%" y="45.5%" class="date">2012</text>
+            <text>
+              <tspan x="13%" y="45%">Became a Spanish</tspan> 
+              <tspan x="10%" y="48%">tutor for the university</tspan>
+            </text>
+
+            <line x1="50%" y1="52%" x2="65%" y2="52%"/> <!-- Line 4 Right -->
+            <circle cx="66%" cy="52%" r="15"/>
+            <text>
+              <tspan x="68%" y="51%">Assistant automechanic</tspan> 
+              <tspan x="68%" y="54%">Motor Town, Costa Rica</tspan>
+            </text>
+
+            <line x1="50%" y1="58%" x2="40%" y2="58%"/> <!-- Line 5 -->
+            <circle cx="39%" cy="58%" r="15"/>
+            <text x="44%" y="57.5%" class="date">2013</text>
+            <text>
+              <tspan x="22%" y="57%">Accepted to the</tspan> 
+              <tspan x="22%" y="60%">paintaball team</tspan>
+            </text>
+
+            <line x1="50%" y1="64%" x2="60%" y2="64%"/> <!-- Line 5 Right -->
+            <circle cx="61%" cy="64%" r="15"/>
+            <text>
+              <tspan x="63%" y="63%">Product manager intern</tspan> 
+              <tspan x="63%" y="66%">Watersonn Corporation, Costa Rica</tspan>
+            </text>
+
+            <line x1="50%" y1="70%" x2="35%" y2="70%"/> <!-- Line 6 -->
+            <circle cx="34%" cy="70%" r="15"/>
+            <text x="44%" y="69.5%" class="date">2014</text>
+            <text>
+              <tspan x="14%" y="69%">Admited to The</tspan> 
+              <tspan x="11%" y="72%">School of Information</tspan>
+            </text>
+
+            <line x1="50%" y1="76%" x2="65%" y2="76%"/> <!-- Line 6 Right -->
+            <circle cx="66%" cy="76%" r="15"/>
+            <text>
+              <tspan x="68%" y="75%">Web developer intern</tspan> 
+              <tspan x="68%" y="78%">Platform 45, South Africa</tspan>
+            </text>
+
+            <line x1="50%" y1="82%" x2="40%" y2="82%"/> <!-- Line 7 -->
+            <circle cx="39%" cy="82%" r="15"/>
+            <text x="44%" y="81.5%" class="date">2015</text>
+            <text>
+              <tspan x="16%" y="81%">Graduated from The</tspan> 
+              <tspan x="15%" y="84%">University of Michigan</tspan>
+            </text>
+
+            <line x1="50%" y1="88%" x2="60%" y2="88%"/> <!-- Line 7 Right -->
+            <circle cx="61%" cy="88%" r="15"/>
+            <text>
+              <tspan x="63%" y="87%">Junior web developer</tspan> 
+              <tspan x="63%" y="90%">Your Company, Australia</tspan>
+            </text>
+            
+            <line x1="50%" y1="100%" x2="53%" y2="97%"/> <!-- Arrow -->
+            <line x1="50%" y1="100%" x2="47%" y2="97%"/> <!-- Arrow -->
+          </svg>
+
+
+        </div>
+
+        <div id="additional_info">
+          <h1>Skills:</h1>
+          <ul>
+            <li><p><span class="skills_span">Languages: </span>Spanish, Hebrew (conversational) and Mandarin (basic)</p></li>
+            <li><p><span class="skills_span">Computer Skills: </span>C++, Python, Ruby on Rails, HTML, CSS, SASS, 
+              JavaScript, PHP, SQL, VIM, Photoshop, Illustrator, Bridge</p>
+            </li>
+            <li><p><span class="skills_span">Certifications: </span>Auto Mechanic (Costa Rica, 2009), 
+              PADI Sciba Diver (Israel, 2010), and Bartending (Costa Rica, 2014)</p>  
+            </li>
+          </ul>
+          <p>To see/download my latest resume click <a href="files/German_Ostaszynski_CV.pdf" target="_blank" alt="Resume">here</a></p>
+        </div>
+
+      </article>
+      
+      <hr>
+
+      <article id="contact">
+        <h1 class="title">Let's Talk!</h1>
+        <div id="contact_content">
+          <form action="">
+            NAME: <input type="text" name="name" placeholder="Joe Doe" required> <br>
+            E-MAIL: <input type="email" name="email" placeholder="example@example.com" required> <br>
+            MESSAGE: <input type="text" name="message" placeholder="Type your message here..." required> <br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </article>
+
+    </section>
     <footer>
-      <a href="http://facebook.com/osgerman"><img src="img/facebook.png" alt="Facebook Logo"></a>
-      <a href="http://twitter.com/osgerman"><img src="img/twitter.png" alt="Twitter Logo"></a>
-      <a href="https://www.linkedin.com/pub/german-ostaszynski/55/627/456"><img src="img/linkedin.png" alt="LinkedIn Logo"></a>
-      <a href="https://github.com/german92"><img src="img/github.png" alt="GitHub Logo"></a>
-      <p>&copy; 2014 German Ostaszynski</p>
+      <div id="footer_content">
+        
+        <div id="footer_info">
+          <p> German Ostaszynski<br><span>2015 &copy;<span></p>
+        </div>
+
+        <div id="footer_icons">
+          <div id="github">
+          </div>
+          <div id="linkedin">
+          </div>
+          <div id="flickr">
+          </div>
+          <div id="youtube">
+          </div>
+          <div id="twitter">
+          </div>
+          <div id="facebook">
+          </div>
+          <div id="google_plus">
+          </div>
+        </div>
+      
+      </div>
+
+      
     </footer>
-    
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+   
+    <script type="text/javascript" src="js/output.js"></script>
+
   </body>
+
+
 </html>
