@@ -390,8 +390,9 @@ nav ul li {
 /*---------------------------- Contact --------------------------------*/
 
 #contact_content {
-  width: 80%;
+  width: 76%;
   margin: 150px auto 100px;
+  font-size: 1.4em;
 }
 
 input {
@@ -400,24 +401,25 @@ input {
   background-color: rgb(215, 215, 210);
   border:0 none;
   height: 30px;
-  }
+  font-size: 0.7em; 
+  font-family: 'Lato', sans-serif;
+}
 
 
 input[name="message"] {
-  height: 200px;
+  padding-bottom: 200px;
   margin-bottom: 40px;
-
 }
 
 input[type=submit] {
-  padding:5px 15px; 
   background: rgb(45, 45, 43);
   color: #FFF; 
   border:0 none;
   cursor:pointer;
   -webkit-border-radius: 5px;
   border-radius: 20px; 
-  width: 80px;
+  width: 120px;
+  font-size: 0.9em;
 }
 
 /*---------------------------- Footer --------------------------------*/
@@ -818,7 +820,6 @@ footer {
 
   nav {
     height: 90px;
-
   }
 
   #nav_name, #nav_list {
@@ -835,7 +836,7 @@ footer {
   }
 
   #nav_list li {
-    margin-right: 20px;
+    margin-right: 16px;
   }
 
 
@@ -906,7 +907,66 @@ footer {
   .portfolio_element {
     margin-right: 15px;
   }
-  
+
+
+  /* -------------- Footer --------------- */
+ 
+  #footer_content {
+    padding-top: 5px;  
+  }
+
+  #footer_info {
+    width: 22%;
+    margin-top: 10px;
+    font-size: 1em; 
+  }
+
+  #footer_icons {
+    width: 332px;  
+  }
+
+  #footer_icons div {
+    width: 45px;
+    height: 45px;
+    margin: 15px 38px 0 0;
+  }
+
+  #github {
+    background-position: 7px 821px !important;
+    background-size: 660% 429% !important;
+  }
+
+  #linkedin {
+    background-position: 675px 766px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #flickr {
+    background-position: -89px 768px !important;
+    background-size: 795% 530% !important;
+  }
+
+  #youtube {
+    background-position: 262px 480px !important;
+    background-size: 930% 482% !important;
+  }
+
+  #twitter {
+    background-position: -173px 763px !important;
+    background-size: 777% 530% !important;
+  }
+
+  #facebook {
+    background-position: -235px 763px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #google_plus {
+    background-position: -246px 715px !important;
+    background-size: 710% 495% !important;
+  }
+
+
 }
 
 
@@ -1015,6 +1075,66 @@ footer {
   #portfolio_container {
     width: 200px;
   }
+
+
+
+  /* -------------- Footer --------------- */
+ 
+  #footer_content {
+    padding-top: 5px;  
+  }
+
+  #footer_info {
+    width: 34%;
+    margin-top: 10px;
+    font-size: 1em; 
+  }
+
+  #footer_icons {
+    width: 170px;  
+  }
+
+  #footer_icons div {
+    width: 30px;
+    height: 30px;
+    margin: 15px 25px 0 0;
+  }
+
+  #github {
+    background-position: 3px 895px !important;
+    background-size: 722% 480% !important;
+  }
+
+  #linkedin {
+    background-position: 690px 668px !important;
+    background-size: 797% 527% !important;
+  }
+
+  #flickr {
+    background-position: -60px 35px !important;
+    background-size: 795% 530% !important;
+  }
+
+  #youtube {
+    background-position: 158px 30px !important;
+    background-size: 845% 445% !important;
+  }
+
+  #twitter {
+    background-position: -116px 30px !important;
+    background-size: 777% 530% !important;
+  }
+
+  #facebook {
+    background-position: 84px 30px !important;
+    background-size: 800% 530% !important;
+  }
+
+  #google_plus {
+    background-position: 49px 30px !important;
+    background-size: 710% 495% !important;
+  }
+
 
 }
 
