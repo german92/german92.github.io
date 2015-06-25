@@ -338,15 +338,7 @@ nav ul li {
   position: relative;
 }
 
-#timeline svg {
-  stroke: rgb(113, 128, 175);
-  stroke-width: 4;
-  fill: rgb(113, 128, 175);
-}
-
 #timeline svg text {
-  fill: #000;
-  stroke-width: 0;
   font-size: 1.5em;
 }
 
@@ -359,12 +351,12 @@ nav ul li {
   font-size: 1.9em;
   margin-bottom: 20px;
   list-style-type: none;
-  color: rgb(113, 128, 175);
 }
 
 #additional_info ul {
   list-style-type: disc;
   color: rgb(113, 128, 175);
+  margin-left: 18px;
 }
 
 #additional_info p {
