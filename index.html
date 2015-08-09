@@ -3,6 +3,7 @@
   <head>
     <title>German Ostaszynski | Web Developer & Designer</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
     <link rel="icon" type="image/png" href="img/favicon64.ico" />
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>  <!-- Incluye un .js externo (JQUERY) -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,12 +29,22 @@
 
       <article id="home">
         <div class="container">
-          <div id="quote">
+          <div class="quote" id="first_quote">
+            <p>
+              Hi there! I am German
+            </p>
+          </div>
+          <div class="quote" id="second_quote">
             <p>
               I love to create,<br><span>design, and build</span>
             </p>
           </div>
-          <div id="home_pic" onclick="uno()" >
+          <div class="quote" id="third_quote">
+            <p>
+              I am a Web Developer<br><span>and Photographer</span>
+            </p>
+          </div>
+          <div id="home_pic">
           </div>
         </div>
       </article>
@@ -130,14 +141,16 @@
             </div>
           </div>
 
-          <div class="portfolio_element">
-            <div id="photography" class="portfolio_picture">
+          <a href="img/eolico.png" data-lightbox="eolico">            
+            <div class="portfolio_element">
+              <div id="photography" class="portfolio_picture">
+              </div>
+              <div class="portfolio_description">
+                <h1>Photography</h1>
+                <h2>See the world through my eyes</h2>
+              </div>
             </div>
-            <div class="portfolio_description">
-              <h1>Photography</h1>
-              <h2>See the world through my eyes</h2>
-            </div>
-          </div>
+          </a>
 
         </div>
 
@@ -353,6 +366,7 @@
     </footer>
    
     <script type="text/javascript" src="js/output.js"></script>
+    <script src="js/lightbox.min.js"></script>
 
   </body>
 
