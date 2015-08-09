@@ -59,6 +59,7 @@ table {
   src: local('Lato Light'), local('Lato-Light'), url(../fonts/lato_lite_ext.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
   font-family: 'Lato';
@@ -67,6 +68,19 @@ table {
   src: local('Lato Light'), local('Lato-Light'), url(../fonts/lato_lite.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
+/* Webfont: Lato-Light */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Lato-Light.ttf') format('truetype'); 
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
 
 
 /*---------------------------- General CSS --------------------------------*/
@@ -160,9 +174,13 @@ nav ul li {
   display: inline-block;
 }
 
-#quote {
+.quote {
   position: absolute; 
   left: 0;
+}
+
+#second_quote, #third_quote {
+  display: none;
 }
 
 #home_pic {
@@ -510,12 +528,12 @@ footer {
     display: block;
   }
 
-  #quote {    
+  .quote {    
     font-size: 2.5em;
     top: 38%; 
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
@@ -537,12 +555,12 @@ footer {
     height: 500px;
   }
 
-  #quote {
+  .quote {
     font-size: 2.2em; 
     top: 42%;
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
@@ -597,12 +615,12 @@ footer {
     min-width: 75%;
   }
 
-  #quote {
+  .quote {
     font-size: 2em; 
     top: 38%;
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
@@ -700,7 +718,7 @@ footer {
     height: 520px;
   }
 
-  #quote, #home_pic {
+  .quote, #home_pic {
     display: block;
     position: static;
     margin: 0 auto;
@@ -712,12 +730,12 @@ footer {
     padding-top: 55px;
   }
 
-  #quote {
+  .quote {
     font-size: 2.2em; 
     top: 38%;
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
@@ -838,7 +856,7 @@ footer {
     height: 500px;
   }
 
-  #quote, #home_pic {
+  .quote, #home_pic {
     display: block;
     position: static;
     margin: 0 auto;
@@ -850,12 +868,12 @@ footer {
     padding-top: 50px;
   }
 
-  #quote {
+  .quote {
     font-size: 2em; 
     top: 38%;
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
@@ -1008,7 +1026,7 @@ footer {
     padding-top: 0;
   }
 
-  #quote, #home_pic {
+  .quote, #home_pic {
     display: block;
     position: static;
     margin: 0 auto;
@@ -1019,12 +1037,12 @@ footer {
     padding-top: 50px;
   }
 
-  #quote {
+  .quote {
     font-size: 1.6em; 
     top: 38%;
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
@@ -1180,7 +1198,7 @@ footer {
     padding-top: 0;
   }
 
-  #quote, #home_pic {
+  .quote, #home_pic {
     display: block;
     position: static;
     margin: 35px auto 0;
@@ -1192,12 +1210,12 @@ footer {
     width: 70%;
   }
 
-  #quote {
+  .quote {
     font-size: 1.5em; 
     top: 38%;
   }
 
-  #quote span {
+  .quote span {
     padding-left: 2em;
   }
   
