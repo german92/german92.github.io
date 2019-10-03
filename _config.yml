@@ -9,47 +9,47 @@ description: "Full-stack web developer located in Costa Rica. Let's build someth
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
+- name: German Ostaszynski
   pic: 2
-  position: Lead Marketer
+  position: Web Developer
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/osgerman
     - title: facebook
-      url: #
+      url: https://www.facebook.com/osgerman
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/german-ostaszynski-45662755/
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+# - name: Larry Parker
+#   pic: 2
+#   position: Lead Marketer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: linkedin
+#       url: #
+#
+# - name: Diana Petersen
+#   pic: 3
+#   position: Lead Developer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/osgerman
-  - title: linkedin
-    url: https://www.linkedin.com/in/german-ostaszynski-45662755/
   - title: facebook
     url: https://www.facebook.com/osgerman
+  - title: linkedin
+    url: https://www.linkedin.com/in/german-ostaszynski-45662755/
   - title: stack-overflow
     url: https://stackoverflow.com/users/3898954/german
   # - title: bitbucket
