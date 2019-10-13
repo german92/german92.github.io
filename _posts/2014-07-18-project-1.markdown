@@ -4,8 +4,8 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2019-02-1
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: motor-town.png
+thumbnail: motor-town-thumbnail.png
 alt: Motor Town Web Design
 project-date: February 2019
 client: Motor Town
