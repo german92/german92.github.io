@@ -53,9 +53,9 @@ social:
   - title: stack-overflow
     url: https://stackoverflow.com/users/3898954/german
   # - title: bitbucket
-    # url: http://bitbucket.org/jekyll
+    # url: https://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/german92
+    url: https://github.com/german92
 
 # Postal address (add as many lines as necessary)
 address:
