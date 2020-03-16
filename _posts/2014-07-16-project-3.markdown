@@ -4,7 +4,7 @@ subtitle: Logo Design
 layout: default
 modal-id: 3
 date: 2020-01-05
-img: watersonn-logo.jpg
+img: watersonn-logo.png
 thumbnail: watersonn-logo-thumbnail.png
 alt: Watersonn Logo
 project-date: January 2020
