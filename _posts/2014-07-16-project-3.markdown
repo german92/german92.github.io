@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Watesonn Logo
+subtitle: Logo Design
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+date: 2020-01-05
+img: watersonn-logo.jpg
+thumbnail: watersonn-logo-thumbnail.png
+alt: Watersonn Logo
+project-date: January 2020
+client: Corporacion Watersonn
+category: Logo Design
+description: Designed a new logo for Corporacion Watersonn in Costa Rica. Logo aligns with the company's new vision to simplify and modernize the company.
 
 ---
