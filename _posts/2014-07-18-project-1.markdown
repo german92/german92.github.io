@@ -3,7 +3,7 @@ title: Motor Town
 subtitle: Website Design
 layout: default
 modal-id: 1
-date: 2019-02-1
+date: 2019-02-01
 img: motor-town.png
 thumbnail: motor-town-thumbnail.png
 alt: Motor Town Web Design

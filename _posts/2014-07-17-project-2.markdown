@@ -3,10 +3,10 @@ title: Innovations
 subtitle: Website Design
 layout: default
 modal-id: 2
-date: 2014-07-17
+date: 2019-09-01
 img: innovations.png
 thumbnail: innovations-thumbnail.png
-alt: image-alt
+alt: Innovations Website
 project-date: September 2019
 client: Innovations
 category: Web Development
