@@ -1,12 +1,12 @@
 # Site settings
 title: German Ostaszynski
-description: My Experience
+description: Projects and experience
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: German Ostaszynski
-user_description: I'm a Web Developer and Photographer from Costa Rica, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in world of Giving Circles working with Grapevine, a California based startup trying to improve the world through collaborative giving. I'm the first engineer they hired to work on the platform.
+user_description: I'm a Web Developer and Photographer from Costa Rica, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been developing my photography skills. During the day you can find me working is a project and sales manager at Corporacion Watersonn.
 user_title: Web Developer and Photographer
 email: german92@gmail.com
 # twitter_username: lorem_ipsum
